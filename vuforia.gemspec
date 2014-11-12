@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Vuforia::VERSION
   spec.authors       = ["Wladimir Braguini Domingues"]
   spec.email         = ["wladimir.braguini@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Vuforia Web Services API (VWS API) client}
+  spec.description   = %q{The VWS API was created to allow developers programmatically interact with Vuforia’s cloud recognition system. Use the VWS API client to upload image targets into the Vuforia system, add application metadata, and monitor the status of databases and targets.}
+  spec.homepage      = "http://github.com/wlads/vuforia"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+
+  spec.add_dependency "httparty", "~> 0.13.3"
 end
