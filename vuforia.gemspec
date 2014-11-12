@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Wladimir Braguini Domingues"]
   spec.email         = ["wladimir.braguini@gmail.com"]
   spec.summary       = %q{Vuforia Web Services API (VWS API) client}
-  spec.description   = %q{The VWS API was created to allow developers programmatically interact with Vuforia’s cloud recognition system. Use the VWS API client to upload image targets into the Vuforia system, add application metadata, and monitor the status of databases and targets.}
+  spec.description   = %q{The VWS API client was created to allow developers programmatically interact with Vuforia’s cloud recognition system. Use the VWS API client to upload image targets into the Vuforia system, add application metadata, and monitor the status of databases and targets.}
   spec.homepage      = "http://github.com/wlads/vuforia"
   spec.license       = "MIT"
 
